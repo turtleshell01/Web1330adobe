@@ -110,6 +110,7 @@ text-decoration: none;
 color: black;
 font-size: .9em;
 list-style-type: none;
+border-radius: 3px;
  }
 
  nav {
