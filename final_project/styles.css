@@ -1,0 +1,169 @@
+
+.banner {
+    /* The image used */
+    background-image:
+    url(https://media.burford.co.uk/images/SNY04089.jpg_edit.width-1440_05001m7uKQ0crRoI.jpg);
+width:auto;
+height:300px;
+margin: 0 auto;
+text-align:center;
+align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+    background-color: #D1FFAC;
+    align-content: center;
+    font-family: 'Luxurious Roman', serif;
+    display: block;
+  }
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+    color:#3A2085;
+    -webkit-text-stroke: 1px black;
+}
+
+
+section {
+    background-color:#8DB46F;
+    border-radius: 6px;
+ border: 2px solid black;
+
+    display: block;
+}
+
+#container {
+margin: 40px 40px;
+}
+
+h3 {
+    padding-top: 100px;
+    font-family: 'monda', serif;
+    color: white;
+-webkit-text-stroke: 1px black;
+font-size: 2.5em;
+
+
+h2 {
+    font-family: 'Luxurious Roman', serif;
+    text-decoration: underline; 
+    padding-bottom: 20px;
+   
+}
+
+footer {
+    background-color: #FFFFE9;
+}
+
+
+nav ul {
+    padding: 2px;
+    display: inline-block;
+    font-size: 1.5em;
+ }
+ 
+img {
+    padding: 10px;
+}
+ 
+ nav li {
+    display: inline-block;
+    padding: 0 35px;
+ }
+ 
+ nav li a {
+background-color: #90D658;
+display: block;
+margin: 10px;
+width: 100px;
+padding: 5px 50px;
+text-decoration: none;
+color: black;
+font-size: 1em;
+list-style-type: none;
+ }
+
+ nav {
+    margin: auto;
+    list-style-type: none;
+    text-align: center;
+  font-family: 'Luxurious Roman', serif;
+  background-color: #FFFFE9;
+ }
+ 
+
+
+ nav li a:hover {
+    color: #FFA756;
+ }
+ 
+
+ 
+ @media (min-width: 1024px) {
+    .row {
+       display: flex;
+       text-align: center;
+    }
+ 
+    
+ 
+    .col {
+       width: 33%;
+    }
+ 
+    nav li {
+       display: inline-block;
+    }
+    
+ 
+    nav {
+       margin: auto;
+    }
+ }
+ 
+ @media (min-width: 768px) {
+ 
+    nav li {
+        display: inline-block;  
+        border: 0;  
+    }
+
+    nav li a {
+        width: 100px;
+        margin: 10px 10px;
+        padding: 10px;
+    }
+       
+       section {
+          margin: auto;
+       }
+
+       .banner img {
+        width: 50%
+       }
+ }
+
+
+h2 {
+    padding-top: 130px;
+    font-size: 2.5em;
+    margin: auto;
+    text-align:center;
+}
+
+p {
+    text-align: center;
+    margin: auto;
+    font-size: 1.5em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Luxurious Roman', serif;
+}
+
+}
